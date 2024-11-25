@@ -1,411 +1,405 @@
-✨ **NEW UPDATE: Literature Review Generator**
+✨ **NOVA ATUALIZAÇÃO: Gerador de revisão de literatura**
 
-A Custom GPT for Literature Review Generator has been released. It efficiently parses PDF files of research publications, extracts key themes, and creates a literature review section for your academic publications.
+Um GPT personalizado para gerador de revisão de literatura foi lançado. Ele analisa eficientemente arquivos PDF de publicações de pesquisa, extrai temas-chave e cria uma seção de revisão de literatura para suas publicações acadêmicas.
 
 ![customgpt](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing/assets/5254173/b36b7516-39ff-4752-be61-7b364db6d9dd)
 
-TRY NOW: https://chat.openai.com/g/g-G3U8pZGwC-literature-review-generator
+EXPERIMENTE AGORA: https://chat.openai.com/g/g-G3U8pZGwC-literature-review-generator
 
 ***
 
-<!--- ![Cover image](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing/blob/main/cover.jpg) --->
+<!--- ![Imagem de capa](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing/blob/main/cover.jpg) --->
 
+# Prompts do ChatGPT para escrita acadêmica
 
-# ChatGPT Prompts for Academic Writing
+Neste repositório, esta lista de prompts de escrita abrange uma variedade de tópicos e tarefas, incluindo brainstorming de ideias de pesquisa, aprimoramento da linguagem e estilo, realização de revisões de literatura e desenvolvimento de planos de pesquisa. Seja você um estudante, pesquisador ou profissional acadêmico, esses prompts podem ajudar você a aprimorar suas habilidades de escrita e lidar com seus projetos de escrita com confiança.
 
-In this repository, this list of writing prompts covers a range of topics and tasks, including brainstorming research ideas, improving language and style, conducting literature reviews, and developing research plans. Whether you're a student, researcher, or academic professional, these prompts can help you hone your writing abilities and tackle your writing projects with confidence. 
+Use diretamente em: [chat.openai.com](https://chat.openai.com)
 
-Use directly in: [chat.openai.com](https://chat.openai.com)
+A lista é atualizada regularmente, então você pode acompanhar novos prompts seguindo este repositório.
 
-The list is regularly updated, so you can keep track of new prompts by following this repository.
+> **DICAS:** Como há um limite para o número de palavras que podem ser usadas no ChatGPT, você pode inserir seu texto várias vezes usando o prompt "Leia este [PARÁGRAFO]:" e então executar seu prompt final "Considerando o texto acima...".
 
-> **TIPS:** As there is a limit to the number of words that can be used in ChatGPT, you can input your text multiple times using the prompt "Read this [PARAPGRAPH]:" and then run your final prompt "Considering the above text...".
-
-You can also use prompts splitter: [chatgpt-prompt-splitter.jjdiaz.dev](https://chatgpt-prompt-splitter.jjdiaz.dev/)
+Você também pode usar o prompts splitter: [chatgpt-prompt-splitter.jjdiaz.dev](https://chatgpt-prompt-splitter.jjdiaz.dev/)
 
 ## BRAINSTORMING
 
 ```
-Find a research topic for a PhD in the area of [TOPIC]
+Encontre um tópico de pesquisa para um PhD na área de [TÓPICO]
 ```
 
 ```
-Write a detailed proposal on the following research topic. Make Sure it is free from plagiarism. [PARAGRAPH]
+Escreva uma proposta detalhada sobre o seguinte tópico de pesquisa. Certifique-se de que não haja plágio. [PARÁGRAFO]
 ```
 
 ```
-Identify gaps in the literature on [TOPIC SENTENCE]
+Identifique lacunas na literatura sobre [FRASE TÓPICA]
 ```
 
 ```
-Generate 10 academic research questions about [PARAGRAPHS]
+Gere 10 perguntas de pesquisa acadêmica sobre [PARÁGRAFOS]
 ```
 
 ```
-Generate a list of research hypotheses related to [TOPIC SENTENCE]
+Gere uma lista de hipóteses de pesquisa relacionadas a [FRASE TÓPICA]
 ```
 
 ```
-Identify potential areas for future research in the context of this [TOPIC SENTENCE]
+Identifique áreas potenciais para pesquisas futuras no contexto desta [FRASE TÓPICA]
 ```
 
 ```
-Suggest novel applications of [TOPIC SENTENCE] within [RESEARCH DOMAIN]
+Sugira novas aplicações de [FRASE TÓPICA] dentro de [DOMÍNIO DE PESQUISA]
 ```
 
-## ARTICLE SECTIONS
+## SEÇÕES DO ARTIGO
 
-### Title/Topic Sentence
+### Título/Frase Tópica
 
 ```
-Suggest 5 titles for the following abstract: [ABSTRACT PARAGRAPH]
+Sugira 5 títulos para o seguinte resumo: [PARÁGRAFO RESUMO]
 ```
 
 ```
-Write a topic sentence for this paragraph: [PARAGRAPH] 
+Escreva uma frase tópica para este parágrafo: [PARÁGRAFO]
 ```
 
-### Keywords
+### Palavras-chave
 
 ```
-Provide 5 keywords for this: [PARAGRAPHS]
+Fornecer 5 palavras-chave para isso: [PARÁGRAFOS]
 ```
 
-### Abstract
+### Resumo
 
 ```
-Generate an abstract for a scientific paper based on this information for: [PARAGRAPHS]
+Gere um resumo para um artigo científico com base nesta informação para: [PARÁGRAFOS]
 ```
 
-### Outline
+### Esboço
 
 ```
-Generate an outline for [TOPIC SENTENCE]
+Gere um esboço para [FRASE TÓPICA]
 ```
 
 ```
-I want to write a journal article about [TOPIC SENTENCE]. Give me an outline for the article that I can use as a starting point.
+Quero escrever um artigo de periódico sobre [FRASE TÓPICA]. Dê-me um esboço para o artigo que eu possa usar como ponto de partida.
 ```
 
-### Introduction
+### Introdução
 
 ```
-Come up with an introduction for the following research topic: [TOPIC SENTENCE]
+Crie uma introdução para o seguinte tópico de pesquisa: [FRASE TÓPICA]
 ```
 
-### Literature Review
+### Revisão de Literatura
 
 ```
-Conduct a literature review on [TOPIC SENTENCE] and provide review paper references
+Realize uma revisão de literatura sobre [FRASE TÓPICA] e forneça referências de artigos de revisão
 ```
 
 ```
-Provide me with references and links to papers in [PARAPGRAPH]
+Forneça-me referências e links para artigos em [PARÁGRAFO]
 ```
 
-> **NOTE:** Be careful and double-check article existence. ChatGPT may generate fake references
+> **NOTA:** Tenha cuidado e verifique novamente a existência do artigo. O ChatGPT pode gerar referências falsas
 
 ```
-Summarize the scholarly literature, including in text citations on [PARAGRAPHS]
+Resuma a literatura acadêmica, incluindo citações no texto em [PARÁGRAFOS]
 ```
 
 ```
-Write this in standard Harvard referencing [PARAGRAPH]
+Escreva isso em referências padrão de Harvard [PARÁGRAFO]
 ```
 
 ```
-Convert this [BIBLIOGRAPHY] from MLA to APA style.
+Converta esta [BIBLIOGRAFIA] do estilo MLA para APA.
 ```
 
 ```
-Compare and contrast [THEORY1] and [THEORY2] in the context of [RESEARCH DOMAIN]:
+Compare e contraste [TEORIA1] e [TEORIA2] no contexto de [DOMÍNIO DE PESQUISA]:
 ```
 
-### Methodology
+### Metodologia
 
 ```
-Create objectives and methodology for [TOPIC SENTENCE]
+Crie objetivos e metodologia para [FRASE TÓPICA]
 ```
 
 ```
-Write a detailed methodology for the topic: [TOPIC SENTENCE]
+Escreva uma metodologia detalhada para o tópico: [FRASE TÓPICA]
 ```
 
 ```
-Analyze the strengths and weaknesses of this methodology: [PARAGRAPHS]
+Analise os pontos fortes e fracos desta metodologia: [PARÁGRAFOS]
 ```
 
 ```
-Write objectives for this study: [TOPIC SENTENCE]
+Escreva objetivos para este estudo: [FRASE TÓPICA]
 ```
 
 ```
-What are the limitations of using [TOPIC SENTENCE] in [RESEARCH DOMAIN]?
+Quais são as limitações do uso de [FRASE TÓPICA] em [DOMÍNIO DE PESQUISA]?
 ```
 
 ```
-Create a recipe for the methods used in this [PARAGRAPHS]
+Crie uma receita para os métodos usados ​​neste [PARÁGRAFOS]
 ```
 
 ```
-Suggest interdisciplinary approaches to [TOPIC SENTENCE]
+Sugira abordagens interdisciplinares para [FRASE TÓPICA]
 ```
 
 ```
-Explain how qualitative/quantitative research methods can be used to address [RESEARCH QUESTIONS]
+Explique como métodos de pesquisa qualitativa/quantitativa podem ser usados ​​para abordar [PERGUNTAS DE PESQUISA]
 ```
 
 ```
-Recommend best practices for data collection and analysis in [TOPIC SENTENCE]
+Recomende as melhores práticas para coleta e análise de dados em [FRASE TÓPICA]
 ```
 
-### Experiments
+### Experimentos
 
 ```
-Design an experiment that [ACTION]
+Projete um experimento que [AÇÃO]
 ```
 
-### Results
+### Resultados
 
 ```
-Write a result section for the following paragraphs. Please write this in the third person. [PARAGRAPHS]
+Escreva uma seção de resultados para os parágrafos a seguir. Escreva na terceira pessoa. [PARÁGRAFOS]
 ```
 
-### Discussion
+### Discussão
 
 ```
-Discuss these results: [RESULT PARAGRAPHS]
+Discuta estes resultados: [PARÁGRAFOS DE RESULTADOS]
 ```
 
-### Conclusion
+### Conclusão
 
 ```
-Generate a conclusion for this: [PARAGRAPHS]
+Gere uma conclusão para isto: [PARÁGRAFOS]
 ```
 
 ```
-Give recommendations and conclusion for: [PARAGRAPHS]
+Dê recomendações e conclusão para: [PARÁGRAFOS]
 ```
 
-### Future Works
+### Trabalhos Futuros
 
 ```
-Can you suggest 3 directions for future research on this topic: [PARAGRAPH]]?
+Você pode sugerir 3 direções para pesquisas futuras sobre este tópico: [PARÁGRAFOS]]?
 ```
 
-## IMPROVING LANGUAGE
+## MELHORANDO A LINGUAGEM
 
 ```
-Rewrite this paragraph in an academic language: [PARAGRAPH]
+Reescreva este parágrafo em uma linguagem acadêmica: [PARÁGRAFOS]
 ```
 
 ```
-Paraphrase the text using more academic and scientific language. Use a neutral tone and avoid repetitions of words and phrases. [PARAGRAPH]
+Parafraseie o texto usando uma linguagem mais acadêmica e científica. Use um tom neutro e evite repetições de palavras e frases. [PARÁGRAFO]
 ```
 
 ```
-Correct the grammar: [PARAGRAPH]
+Corrija a gramática: [PARÁGRAFO]
 ```
 
 ```
-What do you think of how this paragraph is written?:  [PARAGRAPH]
+O que você acha de como este parágrafo está escrito?: [PARÁGRAFO]
 ```
 
 ```
-What 3 points would you suggest to improve this paragraph?: [PARAGRAPH]
+Quais 3 pontos você sugeriria para melhorar este parágrafo?: [PARÁGRAFO]
 ```
 
 ```
-Improve the style of my writing? [PARAGRAPHS]
+Melhorar o estilo da minha escrita? [PARÁGRAFOS]
 ```
 
 ```
-Improve the clarity and coherence of my writing [PARAGRAPHS]
+Melhorar a clareza e a coerência da minha escrita [PARÁGRAFOS]
 ```
 
 ```
-Improve the organization and structure of my paper [PARAGRAPHS]
+Melhorar a organização e a estrutura do meu artigo [PARÁGRAFOS]
 ```
 
 ```
-Provide feedback on this text and suggest areas for improvement [PARAGRAPHS]
+Forneça feedback sobre este texto e sugira áreas para melhoria [PARÁGRAFOS]
 ```
 
 ```
-Can you improve this paragraph using passive voice: [PARAGRAPH]
+Você pode melhorar este parágrafo usando a voz passiva: [PARÁGRAFOS]
 ```
 
 ```
-Can you improve this paragraph to make it more cohesive? [PARAGRAPH]
+Você pode melhorar este parágrafo para torná-lo mais coeso? [PARÁGRAFOS]
 ```
 
 ```
-Analyze the text below for style, voice, and tone. Using NLP, create a prompt to write a new article in the same style, voice, and tone: [PARAGRAPHS]
+Analise o texto abaixo quanto ao estilo, voz e tom. Usando PNL, crie um prompt para escrever um novo artigo no mesmo estilo, voz e tom: [PARÁGRAFOS]
 ```
 
 ```
-Please write a few paragraphs using the following list of points [LIST] 
+Escreva alguns parágrafos usando a seguinte lista de pontos [LISTA]
 ```
 
 ```
-Give three variations of this sentence: [SENTENCE] 
+Dê três variações desta frase: [FRASE]
 ```
 
 ```
-Write a transition sentence to connect the following two paragraphs: [PARAGRAPH1] [PARAPGRAPH2]
+Escreva uma frase de transição para conectar os dois parágrafos a seguir: [PARÁGRAFO1] [PARÁGRAFO2]
 ```
 
 ```
-Provide effective transitions between paragraphs [PARAGRAPH1] [PARAGRAPH2]
+Forneça transições eficazes entre parágrafos [PARÁGRAFO1] [PARÁGRAFO2]
 ```
 
 ```
-Rewrite this paragraph as an introduction: [PARAGRAPH]
+Reescreva este parágrafo como uma introdução: [PARÁGRAFO]
 ```
 
 ```
-Rewrite this paragraph as a conclusion: [PARAGRAPH]
+Reescreva este parágrafo como uma conclusão: [PARÁGRAFO]
 ```
 
 ```
-Write a counterargument to the following claim: [PARAGRAPH]
+Escreva um contra-argumento para a seguinte afirmação: [PARÁGRAFO]
 ```
 
 ```
-Rewrite this in an academic voice: [PARAGRAPH]
-``` 
+Reescreva isso em uma voz acadêmica: [PARÁGRAFO]
+```
 
 ```
-Expand these notes: [PARAGRAPH]
+Expanda estas notas: [PARÁGRAFO]
 ```
 
 ```
-Provide me a list of words and phrases which were repeatedly / more than 3 times used: [PARAGRAPHS]
+Forneça-me uma lista de palavras e frases que foram usadas repetidamente/mais de 3 vezes: [PARÁGRAFOS]
 ```
 
 ```
-Provide me a list of synonyms for [PARAGRAPH] and evaluate them in the context of [PARAGRAPH]
+Forneça-me uma lista de sinônimos para [PARÁGRAFO] e avalie-os no contexto de [PARÁGRAFO]
 ```
 
 ```
-Act as a language expert, proofread my paper on [TOPIC SENTENCE] while putting a focus on grammar and punctuation.
+Aja como um especialista em idiomas, revise meu artigo sobre [FRASE TÓPICA] enquanto se concentra na gramática e pontuação.
 ```
 
 ```
-In the context of [RESEARCH DOMAIN] translate [PARAPGRAPH] into the [LANGUAGE] language.
+No contexto de [DOMÍNIO DE PESQUISA], traduza [PARÁGRAFO] para o idioma [IDIOMA].
 ```
 
 ```
-Proofread the following text for spelling and grammatical errors and rewrite it with corrections. [PARAGRAPHS] 
+Revise o texto a seguir para erros ortográficos e gramaticais e reescreva-o com as correções. [PARÁGRAFOS]
 ```
 
-### SUMMARIZATION
+### RESUMO
 
 ```
-Summarize the following content: [PARAPGRAPHS]
+Resuma o seguinte conteúdo: [PARÁGRAFOS]
 ```
 
 ```
-Summarize the text in simpler and easier-to-understand terms. [PARAGRAPHS]
+Resuma o texto em termos mais simples e fáceis de entender. [PARÁGRAFOS]
 ```
 
 ```
-Come up with a summary that is exactly [NUMBER OF WORDS] words: [PARAPGRAPHS]
+Crie um resumo que tenha exatamente [NÚMERO DE PALAVRAS] palavras: [PARÁGRAFOS]
 ```
 
 ```
-Reduce the following to [NUMBER OF WORDS] words: [PARAPGRAPHS]
+Reduza o seguinte para [NÚMERO DE PALAVRAS] palavras: [PARÁGRAFOS]
 ```
 
 ```
-Shorten to [NUMBER OF CHARACTERS] characters: [PARAPGRAPHS]
+Reduza para [NÚMERO DE CARACTERES] caracteres: [PARÁGRAFOS]
 ```
 
 ```
-Give me a bullet point summary for [PARAPGRAPHS]
+Dê-me um resumo em tópicos para [PARÁGRAFOS]
 ```
 
 ```
-Extract the important key points of this: [PARAPGRAPHS]
+Extraia os pontos-chave importantes disto: [PARÁGRAFOS]
 ```
 
 ```
-Summarize the text by extracting the most important information in the form of bullet points [PARAGRAPHS]
+Resuma o texto extraindo as informações mais importantes na forma de tópicos [PARÁGRAFOS]
 ```
 
 ```
-Explain this again but simpler: [PARAGRAPHS]
+Explique isto novamente, mas de forma mais simples: [PARÁGRAFOS]
 ```
 
 ```
-Explain this research to a 12 year old: [PARAGRAPHS]
+Explique esta pesquisa para uma criança de 12 anos antigo: [PARÁGRAFOS]
 ```
 
 ```
-Identify the key findings and implications of this: [PARAGRAPHS]
+Identifique as principais descobertas e implicações disto: [PARÁGRAFOS]
 ```
 
 ```
-Remove the throat-clearing sentence from this paragraph: [PARAGRAPH]
+Remova a frase de pigarro deste parágrafo: [PARÁGRAFO]
 ```
 
 ```
-Frontload the argument in the following paragraph: [PARAGRAPH]
+Coloque o argumento no parágrafo a seguir: [PARÁGRAFO]
 ```
 
 ```
-Explain [TOPIC] as an analogy
+Explique [TÓPICO] como uma analogia
 ```
 
-## PLAN/PRESENTATION
+## PLANO/APRESENTAÇÃO
 
 ```
-Develop a research plan for: [TOPIC SENTENCE]
+Desenvolva um plano de pesquisa para: [FRASE TÓPICA]
 ```
 
 ```
-Write a schedule for completion in [TOPIC SENTENCE] in [NUMBER OF DAYS/MONTHS/YEARS]
+Escreva um cronograma para conclusão em [FRASE TÓPICA] em [NÚMERO DE DIAS/MESES/ANOS]
 ```
 
 ```
-The deadline for the submission of the first draft is [DATE]. give me a week-by-week breakdown so I can plan my writing better.
+O prazo para a entrega do primeiro rascunho é [DATA]. Dê-me um detalhamento semana a semana para que eu possa planejar melhor minha escrita.
 ```
 
 ```
-Write a sensational press release for this research: [PARAGRAPHS]
+Escreva um press release sensacional para esta pesquisa: [PARÁGRAFOS]
 ```
 
 ```
-Make this more persuasive: [PARAGRAPH]
+Torne isso mais persuasivo: [PARÁGRAFOS]
 ```
 
 ```
-Write 3 tweets about this research. [PARAGRAPHS]
+Escreva 3 tuítes sobre esta pesquisa. [PARÁGRAFOS]
 ```
 
-## WORKING WITH DOCUMENTS (AVAILABLE ONLY IN GPT-4)
+## TRABALHANDO COM DOCUMENTOS (DISPONÍVEL SOMENTE NO GPT-4)
 
-Upload a PDF file of a paper then:
+Faça upload de um arquivo PDF de um artigo e então:
 ```
-Summarize the paper and extract key points.
+Resuma o artigo e extraia os pontos principais.
 ```
 
-Upload a PDF file of your paper then:
+Faça upload de um arquivo PDF do seu artigo e então:
 ```
-Provide feedback on this article draft.
+Forneça feedback sobre este rascunho do artigo.
 ```
 
-Upload PDF files of papers then:
+Faça upload de arquivos PDF de artigos e então:
 ```
-Considering these documents, write a literature review in paragraphs that include in-text references of the documents in APA format.
+Considerando esses documentos, escreva uma revisão de literatura em parágrafos que incluam referências no texto dos documentos no formato APA.
 ```
 
-Upload a figure image then:
+Faça upload de uma imagem de figura e então:
 ```
-Explain the figure.
+Explique a figura.
 ```
-
-
-
-
-
